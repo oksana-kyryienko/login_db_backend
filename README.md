@@ -1,30 +1,61 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Link for a Backend Part [DEMO LINK](https://github.com/oksana-kyryienko/backend_for_autification_react)
 
-Currently, two official plugins are available:
+This project represents the frontend part of an application for user authentication and registration. It is developed using React.js.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Functionality
+User login
+User registration
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Installation and Setup
+Clone the repository:
 
-- Configure the top-level `parserOptions` property like this:
+git clone https://github.com/oksana-kyryienko/login_db_backend
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Install dependencies:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+cd frontend
+npm install
+
+Run the application:
+
+npm run dev
+The application will be running at http://localhost:5173.
+
+Usage
+Login
+URL: /login
+Description: Allows existing users to log in with their credentials.
+Registration
+URL: /signup
+Description: Allows new users to create an account.
+Project Structure
+src/: Source code of the application
+components/: Reusable UI components
+Header/: Header component
+LoginForm/: Login form component
+SignUpForm/: Registration form component
+pages/: Pages of the application
+LoginPage.tsx: Page for user login
+SignUpPage.tsx: Page for user registration
+ContentPage.tsx: Page with content - is provided after autification
+MainPage.tsx: Page that allow login or sign up
+
+store/: Redux store configuration and slices
+store.ts: Redux store setup
+userSlice.ts: Redux slice for user state management
+utils/: Utility functions
+utils.ts: Helper functions, such as email validation
+App.tsx: Main component of the application
+index.tsx: Entry point of the application
+App.css: Styles for the main component
+Dependencies
+The project uses the following dependencies:
+
+react: JavaScript library for building user interfaces
+react-redux: Official React bindings for Redux
+react-router-dom: DOM bindings for React Router
+axios: Promise-based HTTP client for the browser and Node.js
+typescript: Typed JavaScript at Any Scale
