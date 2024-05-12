@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "backgroundImage": "/card_1.png",
+    "title": "The Marina Torch",
+    "price": "6 500 000 Dhs",
+    "yield": "Yield 9.25%",
+    "sold": "Sold 75%",
+    "tiket": "Tiket - 60 000 Dhs",
+    "days": "Days left 150"
+  },
+  {
+    "id": 2,
+    "backgroundImage": "/card_2.png",
+    "title": "HHHR Tower",
+    "price": "6 500 000 Dhs",
+    "yield": "Yield 9.25%",
+    "sold": "Sold 75%",
+    "tiket": "Tiket - 60 000 Dhs",
+    "days": "Days left 150"
+  },
+  {
+    "id": 3,
+    "backgroundImage": "/card_3.png",
+    "title": "Ocean peaks",
+    "price": "6 500 000 Dhs",
+    "yield": "Yield 9.25%",
+    "sold": "Sold 75%",
+    "tiket": "Tiket - 60 000 Dhs",
+    "days": "Days left 150"
+  },
+  {
+    "id": 4,
+    "backgroundImage": "/card_4.png",
+    "title": "Al Yaqoub Tower",
+    "price": "6 500 000 Dhs",
+    "yield": "Yield 9.25%",
+    "sold": "Sold 75%",
+    "tiket": "Tiket - 60 000 Dhs",
+    "days": "Days left 150"
+  }
+]

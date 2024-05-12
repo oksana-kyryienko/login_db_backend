@@ -1,0 +1,12 @@
+.SignUp {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.link-login {
+  width: 100%;
+  text-align: center;
+  color: var(--brown-color);
+  font-weight: 700;
+}

@@ -1,0 +1,51 @@
+.card {
+  height: 50%;
+  display: inline-block;
+  vertical-align: top;
+  color: #fff;
+  flex: 0 0 49%;
+}
+
+.card:first-child,
+.card:nth-child(2) {
+  margin-bottom: 20px;
+}
+
+.card-content {
+  box-sizing: border-box;
+  padding: 10px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  align-items: flex-end;
+}
+
+.card-info {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-title {
+  text-align: left;
+}
+
+.none {
+  opacity: 0;
+}
+
+@media (max-width: 767px) {
+  .card {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .card-content {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 15px;
+  }
+}

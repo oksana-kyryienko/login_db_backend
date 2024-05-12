@@ -1,0 +1,93 @@
+.Login {
+  display: flex;
+  height: 100vh;
+}
+
+.img-container {
+  width: 100%;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  padding-inline: 40px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.button {
+  background-color: var(--brown-color);
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 700;
+  box-sizing: border-box;
+}
+
+.input {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.label {
+  width: 100%;
+  text-align: left;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.text-brown {
+  width: 100%;
+  text-align: right;
+  color: var(--brown-color);
+  font-family: 'Lato';
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.new-account {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 5px;
+}
+
+.text-account {
+  font-family: 'Lato';
+  font-size: 14px;
+}
+
+.sign-up {
+  color: var(--brown-color);
+  font-family: 'Lato';
+  font-size: 14px;
+}
+
+@media (max-width: 767px) {
+  .Login {
+    flex-direction: column;
+  }
+
+  .form {
+    margin-top: 50px;
+  }
+}
